@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="info-container">
+            
+                <div class="Home">
+                    
+                    <h3>HOME</h3>
+                    
+                    <div class="points-container">
+                        <p class="points" id="home-point">0</p>
+                    </div>
+                    
+                    <div class="btn-container">
+                        <button class="btn" onclick="homeAddition1()">+1</button>
+                        <button class="btn" onclick="homeAddition2()">+2</button>
+                        <button class="btn" onclick="homeAddition3()">+3</button>
+                    </div>
+                </div>
+                
+                <div class="Guest">
+                    <h3>GUEST</h3>
+                    
+                    <div class="points-container">
+                        <p class="points" id="guest-point">0</p>
+                    </div>
+                    
+                    <div class="btn-container">
+                        <button class="btn" onclick="guestAddition1()">+1</button>
+                        <button class="btn" onclick="guestAddition2()">+2</button>
+                        <button class="btn" onclick="guestAddition3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="new-game-container">
+                
+                <button class="reset" onclick="reset()">New Game</button>
+                
+            </div>
+            
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

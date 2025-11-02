@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'digital clock';
+    src: url(digital-7.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+
+    background-color: #182042;
+    color: #f2f3f3;
+    padding: 30px 10px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: 5px 5px 5px black;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.points-container {
+    background-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    border: 3px solid #f2f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.points {
+    font-size: 100px;
+    margin: auto;
+    font-family: 'digital clock', Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.Guest {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+    border: 1px solid #f2f3f3;
+    color: inherit;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'digital clock', Arial, Helvetica, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+    margin-top: 10px;
+
+}
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.reset {
+    background-color: red;
+    border: 1px solid white;
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.reset:active {
+    scale: 0.95;
+}
+
